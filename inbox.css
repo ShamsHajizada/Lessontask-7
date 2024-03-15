@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-boxes {
+  margin-left: 50px;
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.red-box {
+  background-color: red;
+  width: 180px;
+  height: 150px;
+  padding-top: 30px;
+}
+
+.green-box {
+  background-color: green;
+  width: 180px;
+  height: 150px;
+  padding-top: 30px;
+}
+
+.blue-box {
+  background-color: blue;
+  width: 180px;
+  height: 150px;
+  padding-top: 30px;
+  transition: 1s;
+}
+
+.orange-box {
+  background-color: orange;
+  width: 180px;
+  height: 150px;
+  padding-top: 30px;
+}
+
+.red-box:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.green-box:hover {
+  transform: translate(150px, -150px);
+  transition: 1s;
+}
+
+.blue-box:hover {
+  transform: rotateY(180deg);
+}
+
+.orange-box:hover{
+    transform: skewX(30deg);
+    transition: 1s;
+}
